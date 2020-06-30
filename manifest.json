@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Clean Focus Chrome Extension",
+    "description": "An extension to set or maintain focus",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "incognito": "split",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
+}
